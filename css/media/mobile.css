@@ -1,0 +1,154 @@
+/* header  600px  */
+.header .container{
+    flex-direction: column;
+}
+
+.header .list li:first-child,
+.header .list li:nth-child(2) {
+    border:none;
+}
+
+.navbar .nav-item .nav-link::after,
+.navbar .nav-item .nav-link::before {
+    left: 0px;
+}
+
+.navbar .nav-item .nav-link:hover::after{
+    width: calc(20% - 15px);
+}
+.navbar .nav-item .nav-link:hover::before {
+    width: calc(10% - 10px);
+}
+
+
+/* slick  */
+.hero-slick div .hero-content {
+    align-items: center;
+    justify-content: center;
+    font-size: 80%;
+    text-align: center;
+    padding: 70px 0 100px 0;
+}
+.hero-slick div .hero-content h1 {
+    font-size: 50px;
+}
+.hero-slick div .hero-content h2 {
+    font-size: 30px;
+}
+
+.hero-slick div .hero-content div {
+    margin-top: 1.5rem !important;
+}
+
+
+/* support  */
+
+#support .row article:last-child {
+    margin-top: 1rem;
+}
+
+
+/* micro  */
+
+#micro .micro-content {
+    text-align: center;
+}
+
+#micro .micro-content h2 {
+    font-size: 23px;
+}
+
+
+.micro-box-group {
+    justify-content: space-evenly !important;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+
+/* .products card  */
+.latest-slick .lates-item .product-card:hover .product-card-img .card-overly {
+    width: 30%;
+}
+
+.lates-item .product-card:hover .product-card-img .card-overly .products-icon a {
+    width: 20px;
+}
+.lates-item > .product-card .products-icon a {
+    height: 20px;
+    width: 20px;
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+/* testimonial  */
+
+
+.test-item {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* blog  */
+#blog .row {
+    gap: 1rem;
+}
+
+#blog .col-sm-8 {
+    text-align: center;
+}
+
+.blog-images-icon {
+    font-size: 1.2rem;
+}
+
+.over-icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.over-footer {
+    font-size: 17px;
+}
+
+/* footer  */
+#footer .container .row {
+    text-align: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.foot-icon {
+   display: inline-flex;
+   justify-content: center;
+}
+.foot-icon li:last-child {
+    margin-right: 0;
+}
+
+/* last  */
+.footer-last .row {
+    text-align: center;
+}
+
+
+#footer .container .row > *:nth-child(3) {
+    text-align: left;
+}
+
+@media (max-width: 599px) {
+    #footer .container .row > *:nth-child(3) {
+        text-align: center;
+    }
+}
+
+.f-l-img img {
+    margin: auto;
+}
+
+/* section  */
+
+
